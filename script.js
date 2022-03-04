@@ -22,10 +22,10 @@ function createGrid(size) {
       let square = document.createElement('div');
       square.style.width = `${squareSide}px`;
       square.style.height = `${squareSide}px`;
-      square.style.border = '1px solid pink';
+      square.style.border = '1px solid #E8EBED';
       square.style.boxSizing = 'border-box';
       square.addEventListener('mouseover', (event) => {
-        event.target.style.backgroundColor = 'blue';
+        event.target.style.backgroundColor = '#7C77B9';
       });
       row.appendChild(square);
     }
