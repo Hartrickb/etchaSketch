@@ -10,6 +10,17 @@ body {
   gap: 10px;
 }
 
+.conrols {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.clear {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
 .size {
   display: flex;
   flex-direction: column;
