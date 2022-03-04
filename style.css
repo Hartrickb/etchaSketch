@@ -10,6 +10,16 @@ body {
   gap: 10px;
 }
 
+.picture {
+  width: 80px;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
 .conrols {
   display: flex;
   align-items: center;
