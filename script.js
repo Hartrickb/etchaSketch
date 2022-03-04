@@ -16,6 +16,11 @@ for (let i = 0; i < 16; i++) {
     square.style.height = `${squareSide}px`;
     square.style.border = '2px solid pink';
     square.style.boxSizing = 'border-box';
+    square.addEventListener('mouseover', (event) => {
+      event.target.style.backgroundColor = 'blue';
+    });
     row.appendChild(square);
   }
 }
+
+function changeBackground() {}
